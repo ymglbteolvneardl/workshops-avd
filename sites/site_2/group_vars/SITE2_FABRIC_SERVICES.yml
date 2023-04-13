@@ -26,3 +26,14 @@ tenants:
                 ip_address: 10.40.40.2/24
               s2-spine2:
                 ip_address: 10.40.40.3/24
+          45:
+            name: 'Forty-five'
+            tags: [ "45" ]
+            enabled: true
+            ip_virtual_router_addresses:
+              - 10.45.45.1
+            nodes:
+              s2-spine1:
+                ip_address: 10.45.45.2/24
+              s2-spine2:
+                ip_address: 10.45.45.3/24
